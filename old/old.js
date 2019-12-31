@@ -132,3 +132,6 @@ function djikstra(graph) {
 }
 
 djikstra(dGraph['start']);
+
+
+
