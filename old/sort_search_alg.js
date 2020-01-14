@@ -185,21 +185,7 @@ console.log(matchingPar(arr3, 9));
 const binaryArray = [1, 0, 1, 0, 1, 0, 1, 1, 0, 0];
 
 
-const binarySort = arr => {
-	let counter = -1;
-	let returnArr = [];
-	for (let i = 0; i < arr.length; i++) {
-		if (arr[i] === 0) counter++;
 
-	}
-	for (let j = 0; j < arr.length; j++) {
-		if (j <= counter)
-			returnArr.push(0);
-		else
-			returnArr.push(1);
-	}
-	return returnArr;
-};
 
 const binarySorted = binarySort(binaryArray);
 console.log(binarySorted);
